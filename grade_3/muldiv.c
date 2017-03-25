@@ -110,5 +110,6 @@ int main()
   }
   if (pass) printf("%sPASSED :) :) :)\n", KGRN);
   else printf("%sFAILED :( :( :(\n", KRED);
+  printf("%s\n", KNRM);
   return 0;
 }
